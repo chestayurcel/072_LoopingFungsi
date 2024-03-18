@@ -11,11 +11,11 @@ int main()
     }
 
     for(i = 0; i < 5; i++){
-        cout << "Masukkan Nama = ";
+        cout << "Masukkan Bilangan = ";
         cin >> arr[i];
     }
 
     for(i = 0; i < 5; i++){
-        cout << "Nama Ke- " << i << " : " << arr[i] << endl;
+        cout << "Bilangan Ke- " << i << " : " << arr[i] << endl;
     }
 }
